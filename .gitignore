@@ -1,4 +1,4 @@
-/1-basic_greeting_agent/greeting_agent/.env
+.env*
 .venv/
 __pycache__/
 *.pyc
