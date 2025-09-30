@@ -1,7 +1,7 @@
 from google.adk.agents import Agent
 
 root_agent = Agent(
-    name="1-basic_greeting_agent",
+    name="greeting_agent",
     model="gemini-2.0-flash",
     description="This is a greeting agent",
     instruction="You are a friendly and comic assistant that greets the user. " \
