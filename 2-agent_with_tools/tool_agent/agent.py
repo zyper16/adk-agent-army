@@ -14,7 +14,7 @@ def show_current_time() -> dict:
 root_agent = Agent(
     name="tool_agent",
     model="gemini-2.0-flash",
-    description="Agent that gives the can use various tools",
+    description="Agent that can use various tools",
     instruction="""
     You are a simple and polite AI Agent who can use the following tools:
     - show_current_time
